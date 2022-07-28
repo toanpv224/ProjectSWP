@@ -1,0 +1,75 @@
+.breadcrumb-my-product span a{
+    font-family: "emoji";
+}
+.order-information-container{
+    padding: 15px;
+    border-radius: 10px;
+}
+.order-details{
+    padding: 15px;
+    border-radius: 10px;
+}
+.quantity, .subtotal{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.action{
+    border-radius: 3px;
+    border-color: black;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: black;
+    display: block;
+}
+.action:hover{
+    background: #0d6efd;
+    color: #fff;
+}
+.modify-action{
+    border-radius: 3px;
+    /*border-color: black;*/
+}
+td{
+    font-family: "emoji";
+}
+td h5 a, td h6, td span, td p, td div{
+    font-family: "emoji";
+
+}
+td h5 a, td span{
+    font-weight: 700;
+}
+.card-title{
+    font-family: "emoji";
+    font-weight: bold;
+}
+.receiver-infor td:first-child{
+    font-weight: bold;
+    width: 15%;
+}
+.card-body td:first-child{
+    font-weight: bold;
+}
+span.note span {
+    font-weight: bold;
+}
+span.note {
+    font-size: 75%;
+}
+span.note a {
+    font-weight: bold;
+    font-variant: petite-caps;
+}
+span#rebuy-message {
+    margin-left: 50px;
+    color: red;
+    font-weight: bold;
+    font-size: 85%;
+}
+.rebuy-message{
+    font-size: 12px;
+    color: red;
+    margin-left: 30px;
+    font-weight: bold;
+}

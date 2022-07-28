@@ -1,0 +1,220 @@
+body{
+    font-size: 1.4rem;
+    color:var(--text-color);
+}
+.container {
+    margin: 0;
+    max-width:none;
+    padding: 0;
+}
+.nav{
+    /* margin: 0; */
+}
+.header-navbar{
+    background-color: black;
+}
+.sidebar{
+    height: 100%;
+    background-color: rgba(7, 7, 7, 0.9);
+    display: block;
+    font-size:1.8rem;
+    border-radius: 5px;
+    width: 14%;
+}
+.cotent{
+    height: 100%;
+    background-color: rgb(12, 12, 12);
+}
+.sidebar-btn{
+    background-color: azure;
+}
+.dropdown{padding:0}
+.sidebar-item:first-child{
+    margin-top: 5px;
+}
+
+.sidebar-content{
+    margin-top: 36px;
+    border-top: 10px;
+    font-size: 2.2rem;
+    text-align: center;
+}
+.sidebar-item{
+    margin:2px 0px 2px 0px;
+    background-color:rgba(122, 120, 120, 0.9);
+}
+.search-item{
+    margin-top: 25px;
+}
+.search-item p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.search-icon{
+    padding-top: 3px;
+    margin-left: 3px;
+    height: 15px;
+    width: 15px;
+}
+.sidebar-item__search{
+display:flex;
+}
+/* navbar horizon  */
+.navbar-horizon{
+margin-bottom: 36px;;
+margin-left: 12px;
+}
+.navbar-path p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.navbar-path{
+align-content: center;
+display: flex;
+margin-left: -10px;
+}
+
+.navbar-path{
+    background-color: rgba(56, 55, 55, 0.9);
+    border-radius: 4px;
+}
+
+.sort-item_btn{
+    width:100%;
+    display: inline-block;
+}
+.sort_nav{
+    position: relative;
+}
+.sort_item{
+    width:100px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    position: absolute;
+    right: -50px;
+    bottom:2px;
+    border-radius: 3px;
+}
+.btn{
+    min-width: 0px;
+}
+.content{
+    background-color:rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+    border-radius: 4px;
+    box-shadow: #dbdbdb;
+    padding:0px 50px 0px 50px;
+    height: fit-content;
+}
+.content-paging{
+    border-radius: 5px;
+    height: 44px;
+    /* display: flex; */
+    /* padding:0px 50px 0px 50px; */
+     background-color: rgba(136, 133, 133, 0.1);
+}
+.pagination{
+    margin-top: 5px;
+    font-size: 1.4rem;
+}
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    color: var(--bs-pagination-active-color);
+    background-color: #a8aaad;
+    border-color: #979ca3;
+}
+.page-item{
+    --bs-pagination-font-size:1.4rem;
+}
+.container-content{
+    height: 100%;
+
+}
+.list-content-item{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.list-content-item li{
+    height: 136px;
+    background-color: rgba(105, 105, 105, 0.9);
+    margin: 12px 20px 12px 2px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+};
+
+   
+.content-item_img{
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.img-item img {
+    text-align: center;
+    align-content: center;
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    background-color: #dbdbdb;
+}
+.content-item_box1{
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+}
+.content-item_id_author{
+    display: flex;
+}
+.content-item_id{
+    margin-right: 15px;
+}
+.content-item_category{
+}
+.content-item_box2{
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+}
+.content-item_box3{
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.content-paging-footer{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    align-content: center ;
+    justify-content: flex-end;
+    right: 0px;
+    bottom: -75px;
+    width: 100%;
+    display: flex;
+    /* padding-bottom: 50px; */
+    height:70px;
+    
+}
+.content{
+    position: relative;
+
+}
+.pagination--footer{
+    width: 100%;
+    margin-right: 50px;
+}
+textarea.form-control {
+    min-height: calc(12.5em + 0.75rem + 2px);
+}

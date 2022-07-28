@@ -1,0 +1,137 @@
+:root{
+    /*--primary-color-rgba:rgb(238,75,43); */
+    
+    --primary-color:#6b615f;
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:rgb(250, 237, 237);
+    --border-color:#dbdbdb;
+    --navbar-height:34px;
+    --header-height:120p``x;
+    --header-width-search-height:calc(var(--navbar-height)- var(--header-height));
+    --stargold-color:#FFCE3E;
+}
+*{
+box-sizing: inherit;
+}
+html{
+    /* 1 hack --> 1 rem=10px */
+    font-size:62.5%;
+    line-height:16px;
+    /* sans-serif là dạng chữ ko có chân  */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {opacity: 0.9}
+}
+/*button style*/
+.btn{
+    min-width: 124px;
+    height:34px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    padding:0;
+    cursor: pointer;
+    color:var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+    background-color:rgba(0,0,0,0.05);
+}
+.btn.btn--primary{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+.btn.btn--disable{
+    cursor:default;
+    background-color:rgb(223, 222, 222);
+    filter: brightness(80%);
+}
+
+.btn.btn--btn--size-s{
+    min-height:32px;
+    font-size:12px;
+}
+/* btn-small */
+.btn__small{
+    min-width: 70px;
+    height:40px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    /* padding:0; */
+    cursor: pointer;
+    color:var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+     
+.btn__small:hover{
+    background-color:rgba(0,0,0,0.05);
+}
+.btn__small.btn__small--primary{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+.btn__small.btn__small--disable{
+    cursor:default;
+    background-color:rgb(223, 222, 222);
+    filter: brightness(80%);
+}
+
+.btn__small.btn__small--btn__small--size-s{
+    min-height:32px;
+    font-size:12px;
+}
+    /* modal */
+
+.modal {
+    position: fixed;
+    top: 40px;
+    bottom: 0;
+    right: 0;
+    left: 60%;
+    display: none;
+    width: 500px;
+
+    animation: headerModal ease-in 0.4s;
+}
+
+@keyframes headerModal {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.modal__body {
+    background-color: var(--white-color);
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+}

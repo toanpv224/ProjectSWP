@@ -1,0 +1,45 @@
+.user-row {
+  margin-bottom: 14px;
+}
+
+.table-user-information > tbody > tr {
+  border-top: 1px solid #ccc;
+}
+
+.table-user-information > tbody > tr:first-child {
+  border-top: 0;
+}
+.submit-row{
+    border: none;
+}
+.table-user-information > tbody > tr > td {
+  border-top: 0;
+}
+
+.panel {
+  margin-top: 20px;
+}
+.select-item{
+   border: 1px solid #ddd;
+    height: 32px;
+    width: 108px;
+}
+.panel-edit{
+    display: none;
+}
+.edit{
+    display: none;
+}
+.edit-icon{
+    margin-right: 5px;
+}
+.mess{
+    position: absolute;
+    white-space: nowrap;
+    right: -175px;
+    color: red;
+    display: none;
+}
+td{
+    position: relative;
+}

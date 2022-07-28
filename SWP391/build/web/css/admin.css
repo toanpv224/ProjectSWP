@@ -1,0 +1,144 @@
+/*.row{
+    background: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}*/
+.select-time-wrapper{
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+#revenue-wrapper span{
+    font-size: 24px;
+    font-weight: bold;
+}
+.select-time-wrapper select, #revenue-wrapper select{
+    height: 40px;
+    line-height: 40px;
+}
+.select-time-wrapper label, #revenue-wrapper label{
+    font-weight: bold;
+}
+#order-table{
+    margin-top: 45%;
+}
+.chart-wrapper{
+    background: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.order-statistic-wrapper{
+    background: #fff;
+    margin-left: 10px;
+}
+div#revenue-wrapper {
+    padding-left: 30px;
+}
+div#revenue-wrapper>div {
+    background: #fff;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-1{
+    flex: 1;
+}
+#revenue-wrapper table{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bold{
+    font-weight: bold;
+}
+.col-md-4.feedback-wrapper {
+    background: #fff;
+}
+.feedback-wrapper table {
+    width: 100%;
+}
+.feedback-wrapper th{
+    width: 25%;
+}
+.feedback-wrapper tr{
+    height: 40px;
+}
+.progress{
+    height: 30px;
+}
+.feedback-wrapper-header{
+    line-height: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.feedback-wrapper-header select{
+    height: 40px;
+    line-height: 40px;
+}
+.feedback-wrapper-header span{
+    font-weight: bold;
+}
+.col-md-8.customer-wrapper {
+    padding-left: 20px;
+    padding-right: 25px;
+}
+.col-md-8.customer-wrapper .row{
+    background: #fff;
+}
+.customer-wrapper table{
+    font-size: 75%;
+    height: 300px;  
+    margin-top: 0;
+}
+.customer-wrapper table th:first-child{
+    width: 40%;
+}
+.customer-wrapper table th:nth-child(2), .customer-wrapper table th:nth-child(3){
+    width: 30%;
+}
+.customer-wrapper table thead{
+    position: sticky;
+    background: #fff;
+    top: 0;
+    border-bottom: 2px solid currentcolor;
+}
+.table-wrapper{
+    overflow-y: auto;
+    max-height: 320px;
+    margin-top: 59px;
+}
+.order-count{
+    background: #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.order-count .sort-bar{
+    width: 90%;
+    background: #f0f3f4;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.order-count .sort-bar .select-time-wrapper{
+    margin-top: 0;
+}
+.customer-wrapper span{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}

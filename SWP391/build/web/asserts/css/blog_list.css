@@ -1,0 +1,36 @@
+.navbar-header{
+    height: 48px;
+    background-color: rgb(66, 80, 75);
+    margin-left: 19px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+
+}
+.search-item1{
+    width: 50%;
+    align-items: center;
+    
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+.box1{
+    background-color: rgb(154, 158, 161);
+    height: 46px;
+    margin-bottom: 10px;
+}
+.box2{
+    background-color: rgb(154, 158, 161);
+    height: 46px;
+}
+.list-content-item{
+    margin-bottom: 60px;
+}
+.header-content{
+    height: 100px;
+    background-color: rgb(154, 158, 161);
+}

@@ -1,0 +1,50 @@
+input{
+    border:1px solid #ddd;
+}
+select{
+    border:1px solid #ddd;
+    width: 120px;
+}
+.ceate-title input{
+    width: 60%;
+}
+
+.ceate-title p{
+   font-size: 18px; 
+   margin-bottom: 2px;
+   font-weight: 500;
+   width: 100%;
+   white-space: nowrap;
+}
+.list-input{
+    margin-bottom: 20px;
+}
+.category-container{
+    display: flex;
+}
+.separate-cat{
+      position: absolute;
+    right: -63px;
+    top: -11px;
+    width: 10px;
+    font-size: 28px;
+    font-weight: 400;
+}
+.category-content{
+    margin-right: 50px;
+    position: relative;
+}
+.err-category{
+    position: absolute;
+    right: 0px;
+    top: 29px;
+}
+.sub-cat-container{
+    position: relative;
+}
+
+.err{
+    color: red;
+    font-weight: 400px;
+    display: none;
+}

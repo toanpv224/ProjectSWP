@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 6, 2022, 9:30:32 PM
+    Author     : tretr
+*/
+
+.table>tbody {
+    vertical-align: middle;
+}
+.search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+.input-search{
+    height: 38px;
+    width: 50px;
+    border-style: inset;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #0d6efd;
+    padding-right: 40px;
+    color: #000000;
+}
+.input-search::placeholder{
+    border: 1px;
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.btn-search{
+    width: 50px;
+    height: 35px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted;  
+}
+.btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+.input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+.pagination{
+    margin-top: 30px;
+}
+.col .input-box{
+    position: relative;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.col .input-box input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    padding: 0 35px 0 15px;
+    transition: all 0.2s linear;
+}
+.col .input-box input:is(:focus, :valid) {
+    border-color: #4070f4;
+}
+.col .input-box :is(label, i) {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    transition: all 0.2s linear;
+}
+.col .input-box label {
+    left: 15px;
+    pointer-events: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.col .input-box input:is(:focus, :valid)~label {
+    color: #4070f4;
+    top: 0;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #fff;
+}
+.col .input-box i{
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.col .input-box input:is(:focus, :valid)~i {
+    color: #4070f4;
+}

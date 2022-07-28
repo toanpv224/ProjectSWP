@@ -1,0 +1,99 @@
+
+.my-order-header-bar{
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "emoji";
+    margin-bottom: 0;
+}
+.my-order-header-bar div{
+    font-family: "emoji";
+    font-weight: bold;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.order-items{
+    margin-top: 20px;
+}
+.id, .order-date, .total-cost span, .status span, .products-name, .products-name div{
+    font-family: "emoji";
+}
+.id a{
+    font-family: "emoji";
+    text-decoration: underline;
+}
+.first-product-image img{
+    width: 200px;
+    height: auto;
+}
+.products-name{
+    width: 40%;
+    padding-top: 25px;
+    padding-left: 10px;
+        display: inline-block;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.products-name>div:first-child{
+    display: inline-block;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.total-cost{
+    align-items: center;
+    width: 14%;
+}
+.status {
+    align-items: center;
+    margin-left: 10%;
+    float: right;
+    width: 5%;
+}
+.id{
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid black;
+}
+.orders-list{
+    background: #e9ecef;
+    font-family: "Arial";
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td, .order-link{
+    font-family: "math";
+}
+.breadcrumb-my-product{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.breadcrumb-my-product span{
+    margin-right: 10px;
+}
+.breadcrumb-my-product span a{
+    font-family: auto;
+}
+.pagination{
+    margin-top: 10px;
+}
+.pagination a{
+    color: #232629;
+}
+.content {
+    height: 100%;
+}

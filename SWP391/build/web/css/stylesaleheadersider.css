@@ -1,0 +1,426 @@
+.header{
+    position: relative;
+    max-height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header .logo{
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 10px;
+    width: 220px;
+    font-weight: 500;
+    height: 50px;
+    display: block;
+    background: #283744;
+}
+.navbar{
+    height: 50px;
+    margin-bottom: 0;
+    margin-left: 220px;
+}
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.navbar-nav .dropdown{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.left-side{
+    background: #39435C;
+    position: absolute;
+    width: 220px;
+    height: 1710px;
+    color:white;    
+}
+.user-panel .info{
+    align-items: center;
+}
+.sidebar-menu{
+    color: white;
+}
+.sidebar-menu li{
+    list-style: none;
+    height: 50px;
+}
+.sidebar-menu li a{
+    text-decoration: none;
+}
+.right-side{
+    background-color: #f1f2f7;
+    margin-left: 220px;
+    min-height: 100%;
+    display: block;
+}
+.content{
+    padding: 20px 15px;
+    background: #f0f3f4;
+    overflow: auto;
+}
+.general-statistics{
+    padding: 20px;
+    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.new-order-statistic, .revenues, .feedback-statistic{
+    margin-top: 20px;
+    background: #fff;
+    height: 400px;
+}
+.feedback-statistic{
+    height: 620px;
+}
+.newly-brought-customer, .newly-registered-customer{
+    margin-top: 20px;
+    background: #fff;
+    height: 300px;
+}
+.trends-of-order-counts{
+    margin-top: 20px;
+    background: #fff;
+    height: 500px;
+}
+
+.add-button button{
+    background: #fff;
+}
+.sort-bar{
+    width: 500px;
+    background: #fff;
+    border: solid;
+    margin-left: 50px;
+}
+.user-search input{
+    width: 300px;
+    align-items: center;
+}
+.filter{
+    margin-top: 20px;
+    background: #fff;
+    height: 80%;
+
+}
+.table{
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+}
+.page-item a{
+    color: #000000;
+}
+
+.user-avatar, .user-information{
+    height: 630px;
+    background: #fff;
+    padding-top: 20px;
+}
+.pull-left .avatar{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.outer .avatar{
+    margin-top: 0;
+}
+.avatar img{
+    width: 200px;
+    height: 200px;
+    border: solid;
+}
+.fullname{
+    margin-top: 30px;
+}
+.fullname span{
+    display: block;
+    text-align: center;
+}
+
+.information{
+    height: 400px;
+    background: #f1f2f7;
+    margin: 20px;
+}
+.change-info-btn{
+    margin-left: 20px;
+    flex: 1;
+}
+.add-user-button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.setting-type{
+    margin-left: 20%;
+    margin-top: 50px;
+    background: #fff;
+    width: 200px;
+}
+.setting-value-order-status{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.setting-value, .setting-order, .setting-status{
+    background: #fff;
+    margin-right: 20px;
+    width: 100px;
+}
+.setting-description{
+    background: #fff;
+    margin-right: 20px;
+    width: 500px;
+    height: 150px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.logo{
+    color:  #fff;
+    text-decoration: none;
+}
+.sidebar-menu span, .sidebar-menu i{
+    color: #fff;
+}
+.sidebar-menu{
+    padding-left: 0;
+    margin-top: 30px;
+}
+.sidebar-menu li{
+    align-items: center;
+    padding-left: 10%;
+    display: flex;
+}
+
+.sidebar-menu li:hover{
+    background: #425164;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    background: #eee;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+    color: #fff;
+}
+.infor{
+    font-size: 12px;
+    padding-top: 2px;
+}
+.infor span{
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+}
+.bg-green{
+    background: green;
+}
+.bg-red{
+    background: #ff0000;
+}
+.bg-yellow{
+    background: yellow;
+}
+.bg-lightblue{
+    background: lightblue;
+}
+.user-panel .info{
+    align-items: center;
+}
+.user-panel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pull-left.image {
+    margin-left: 5%;
+}
+.pull-left.info {
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+.sidebar-menu{
+    color: white;
+}
+.sidebar-menu li{
+    list-style: none;
+    height: 50px;
+}
+.sidebar-menu li a{
+    text-decoration: none;
+}
+.sidebar-.form-container input{
+    height: 35px;
+    width: 165px;
+    margin-left: 10px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    background: #425164;
+    padding-left: 10px;
+}
+.sidebar-.form-container button{
+    width: 35px;
+    height: 35px;
+    border: none;
+    width: 35px;
+    background: #425164;
+    border-left: 1px solid #283744;
+    color: #fff;
+}
+
+.form-container  {
+    padding: 30px;
+}
+.form-container .form-inner form .field {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-container .form-inner form .field input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.form-container .form-inner form .field input:focus {
+    border-color: #6280e6;
+    /* box-shadow: inset 0 0 3px #fb6aae; */
+}
+
+.form-container .form-inner form .field input::placeholder {
+    color: #999;
+    transition: all 0.3s ease;
+}
+
+.form-container form .field input:focus::placeholder {
+    color: #b3b3b3;
+}
+
+.form-container form .btn {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.form-container form .btn .btn-layer {
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    background: -webkit-linear-gradient(right, #009dff, #007bff, #0099ff, #006aff);
+    border-radius: 5px;
+    transition: all 0.4s ease;
+    ;
+}
+
+.form-container form .btn:hover .btn-layer {
+    left: 0;
+}
+
+.form-container form .btn input[type="submit"] {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+    padding-left: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-container .form-inner .login .input-box,
+.form-container .form-inner .signup .input-box {
+    position: relative;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.form-container .form-inner .login .input-box input,
+.form-container .form-inner .signup .input-box input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    padding: 0 35px 0 15px;
+    transition: all 0.2s linear;
+}
+
+.form-container .form-inner .login .input-box input:is(:focus, :valid),
+.form-container .form-inner .signup .input-box input:is(:focus, :valid) {
+    border-color: #4070f4;
+}
+
+.form-container .form-inner .login .input-box :is(label, i),
+.form-container .form-inner .signup .input-box :is(label, i) {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    transition: all 0.2s linear;
+}
+
+.form-container .form-inner .login .input-box label, 
+.form-container .form-inner .signup .input-box label {
+    left: 15px;
+    pointer-events: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-container .form-inner .login .input-box input:is(:focus, :valid)~label, 
+.form-container .form-inner .signup .input-box input:is(:focus, :valid)~label {
+    color: #4070f4;
+    top: 0;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.form-container .form-inner .login .input-box i,
+.form-container .form-inner .signup .input-box i{
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.form-container .form-inner .login .input-box input:is(:focus, :valid)~i, 
+.form-container .form-inner .signup .input-box input:is(:focus, :valid)~i {
+    color: #4070f4;
+}
+.form-container .title {
+    width: 50%;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}

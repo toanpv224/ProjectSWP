@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 18, 2022, 7:54:52 PM
+    Author     : Admin
+*/
+.header{
+    position: relative;
+    max-height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header .logo{
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 10px;
+    width: 220px;
+    font-weight: 500;
+    height: 50px;
+    display: block;
+    background: #283744;
+}
+.navbar{
+    height: 50px;
+    margin-bottom: 0;
+    margin-left: 220px;
+}
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.navbar-nav .dropdown{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.left-side{
+    background: #39435C;
+    position: absolute;
+    width: 220px;
+    height: 1710px;
+    color:white;    
+}
+.user-panel .info{
+    align-items: center;
+}
+.sidebar-menu{
+    color: white;
+}
+.sidebar-menu li{
+    list-style: none;
+    height: 50px;
+}
+.sidebar-menu li a{
+    text-decoration: none;
+}
+.right-side{
+    background-color: #f1f2f7;
+    margin-left: 220px;
+    min-height: 100%;
+    display: block;
+}
+.content{
+    padding: 20px 15px;
+    background: #f0f3f4;
+    overflow: auto;
+}
+.general-statistics{
+    padding: 20px;
+    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.new-order-statistic, .revenues, .feedback-statistic{
+    margin-top: 20px;
+    background: #fff;
+    height: 400px;
+}
+.feedback-statistic{
+    height: 620px;
+}
+.newly-brought-customer, .newly-registered-customer{
+    margin-top: 20px;
+    background: #fff;
+    height: 300px;
+}
+.trends-of-order-counts{
+    margin-top: 20px;
+    background: #fff;
+    height: 500px;
+}
+
+.add-button button{
+    background: #fff;
+}
+.sort-bar{
+    width: 500px;
+    background: #fff;
+    border: solid;
+    margin-left: 50px;
+}
+.user-search input{
+    width: 300px;
+    align-items: center;
+}
+.filter{
+    margin-top: 20px;
+    background: #fff;
+    height: 80%;
+
+}
+.table{
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+}
+.page-item a{
+    color: #000000;
+}
+
+.user-avatar, .user-information{
+    height: 630px;
+    background: #fff;
+    padding-top: 20px;
+}
+.avatar{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.avatar img{
+    width: 200px;
+    height: 200px;
+    border: solid;
+}
+.fullname{
+    margin-top: 30px;
+}
+.fullname span{
+    display: block;
+    text-align: center;
+}
+
+.information{
+    height: 400px;
+    background: #f1f2f7;
+    margin: 20px;
+}
+.change-info-btn{
+    margin-left: 20px;
+    flex: 1;
+}
+.add-user-button{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.setting-type{
+    margin-left: 20%;
+    margin-top: 50px;
+    background: #fff;
+    width: 200px;
+}
+.setting-value-order-status{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.setting-value, .setting-order, .setting-status{
+    background: #fff;
+    margin-right: 20px;
+    width: 100px;
+}
+.setting-description{
+    background: #fff;
+    margin-right: 20px;
+    width: 500px;
+    height: 150px;
+    margin-left: 20%;
+    margin-top: 20px;
+}

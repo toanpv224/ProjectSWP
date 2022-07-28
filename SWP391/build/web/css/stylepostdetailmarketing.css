@@ -1,0 +1,118 @@
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-1{
+    flex:1;
+}
+button.edit-btn, button.view-btn{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    height: 40px;
+}
+.details{
+    margin-left: 10%;
+}
+.input-fields {
+    background: #f0f2f5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.input-fields input {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.flex.input-fields.post-title {
+    width: 100%;
+}
+input#post-title {
+    width: 100%;
+}
+.flex.input-fields.post-subtitle {
+    width: 80%;
+}
+input#post-subtitle {
+    width: 100%;
+}
+.post-view-date{
+    width: 50%
+}
+.post-view-date span:nth-child(2), .post-view-category span:nth-child(2){
+    font-size: 75%;
+}
+.post-view-date span:first-child, .post-view-category span:first-child{
+    font-weight: 600;
+    font-size: 75%;
+}
+.post-view-brief-infor{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input#post-publication-date, input#post-updated-date {
+    background: #f0f2f5;
+    border: 1px solid #c4c5c7;
+}
+.post-category{
+    height: 40px;
+    line-height: 40px;
+}
+.post-thumbnail{
+    position: relative;
+}
+
+.thumbnail-action{
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.thumbnail-action span:first-child{
+    cursor: pointer;
+    margin-right: 10px;
+}
+.thumbnail-action span:first-child:hover{
+    color: blue;
+}
+.thumbnail-action span:nth-child(2){
+    cursor: pointer;
+    margin-left: 10px;
+}
+.thumbnail-action span:nth-child(2):hover{
+    color: blue;
+}
+.input-fields.post-sub-cate {
+    margin-left: 20px;
+}
+select.post-sub-cate {
+    height: 40px;
+    line-height: 40px;
+}
+.input-fields.post-cate {
+    padding-right: 10px;
+}
+.input-fields.post-sub-cate {
+    padding-right: 10px;
+}
+.post-cate input, .post-sub-cate input{
+    width: 110%;
+}
+#post-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    
+}
+.action.flex {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}

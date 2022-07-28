@@ -1,0 +1,21 @@
+.title-item
+{
+    display: flex;
+    
+}
+.navbar-content{
+    padding-bottom: 30px !important;
+}
+.item-detail{
+    border-bottom: 1px solid #ddd;
+        align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.item-detail:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.search-nav-bar{
+        border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}

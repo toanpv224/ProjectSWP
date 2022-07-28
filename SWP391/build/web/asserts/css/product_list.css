@@ -1,0 +1,11 @@
+.product-list_info{
+    display: flex;
+}
+.content-main-page{
+    display: flex;
+    background-color: rgb(60, 60, 61);
+    text-align: center;
+}
+/* .list-product-item{
+    margin-right: 20px;
+} */

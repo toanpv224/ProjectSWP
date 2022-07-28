@@ -1,0 +1,179 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;
+    ;
+}
+
+
+/* ===== Colours ===== */
+:root {
+    --body-color: #E4E9F7;
+    --nav-color: #307e7e;
+    --side-nav: #010718;
+    --text-color: #FFF;
+    --text-color-2: rgb(255, 123, 0);
+    --text-color-3: rgb(27, 27, 27);
+    --text-color-4: rgb(24, 19, 19);
+    --search-bar: #F2F2F2;
+    --search-text: #010718;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.25px;
+    line-height: 24px;
+    outline: none !important;
+    color: var(--text-color);
+    background: var(--body-color);
+}
+
+body {
+    height: 100vh;
+}
+
+.home-sp>.row>.product {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.home-sp>.row>.product>.single-product {
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px var(--search-text), -1px -1px 1px var(--search-text);
+
+}
+
+.container .card {
+    background: var(--search-bar);
+}
+
+
+.home-sp .page-trang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    height: 10vh;
+}
+
+.home-sp .page-trang a {
+    font-size: 25px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 4px 4px 4px 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+    float: left;
+    border-radius: 2px;
+    background: var(--text-color);
+    color: var(--nav-color);
+}
+
+.home-sp .page-trang a:hover {
+    background: var(--nav-color);
+    color: var(--text-color);
+}
+
+.home-sp .page-trang .page-num {
+    width: 30px;
+    text-align: center;
+}
+
+.container .row {
+    color: #1b1b1b;
+}
+
+.table-responsive .table thead tr {
+    border-spacing: 2px;
+}
+
+.table .bg-lightt, .bg-lightt {
+    background-color: var(--nav-color);
+    color: var(--text-color);
+}
+
+.rounded .home-sp {
+    border: none;
+}
+
+.home-sp .container {
+    margin: auto;
+
+}
+
+.container .table-wrapper {
+    width: 100%
+}
+
+.table-wrapper .table-title {
+    color: var(--text-color);
+    background: var(--nav-color);
+    padding-bottom: 20px;
+}
+
+.table-wrapper .table thead {
+    background: var(--nav-color);
+}
+
+.table-wrapper .table tbody {
+    color: #1b1b1b;
+    background: var(--nav-color);
+}
+
+.table-title .row .col-sm-6 {
+    margin-left: 25px;
+}
+
+.table-title .row .col-sm-6 btn-success {
+    color: var(--text-color);
+}
+.addmore-item{
+    display: none;
+    color: red;
+}
+._2REryK {
+    display: flex;
+    flex-direction: column;
+    color: rgba(0,0,0,.8);
+    padding-top: 20px;
+}
+._1uP-hs {
+    background-color: #fffefb;
+    border: 1px solid rgba(224,168,0,.4);
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.625rem;
+    border-radius: 2px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+._140gEP {
+    width: unset;
+}
+.shopee-svg-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    position: relative;
+}
+g {
+    fill: none;
+    fill-rule: evenodd;
+    transform: none;
+}
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+._1UxmZa {
+    color: #222;
+    margin-left: 0.5rem;
+}

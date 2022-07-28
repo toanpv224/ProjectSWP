@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 25, 2022, 12:27:22 AM
+    Author     : win
+*/
+
+.card-title{
+    font-size: 22px;
+}
+
+.content{
+   height: fit-content;
+}
+.body-content_product{
+    height: 300px;
+}
+.ratings{
+    margin-right:10px;
+}
+
+.ratings i{
+    
+    color:#cecece;
+    font-size:32px;
+}
+
+.rating-color{
+    color:#fbc634 !important;
+}
+
+.review-count{
+    font-weight:400;
+    margin-bottom:2px;
+    font-size:24px !important;
+}
+
+.small-ratings i{
+  color:#cecece;   
+}
+
+.review-stat{
+    font-weight:300;
+    font-size:18px;
+    margin-bottom:2px;
+}
+.box{
+    margin-bottom: 20px;
+    
+}
+.box3{
+    height: 36px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.box3-e2-1{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.box3-e2-1 input{
+    width: 46px;
+    height: 32px;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 0;
+    transition: background-color .1s cubic-bezier(.4,0,.6,1);
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 2px;
+    background: transparent;
+    color: rgba(0,0,0,.8);
+}
+
+.box3-e2-1 input:nth-child(2){
+    width: 46px;
+    height: 32px;
+    font-size: 18px;
+    
+}
+.box4{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.box4-e1{
+    margin-left: 36px;
+}
